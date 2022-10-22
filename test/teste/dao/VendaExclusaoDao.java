@@ -23,7 +23,7 @@ public class VendaExclusaoDao extends GenericDao<Venda, Long> implements IVendaD
     }
 
     @Override
-    public Venda consularComCollection(Long id) {
+    public Venda consultarComCollection(Long id) {
         throw new UnsupportedOperationException("OPERAÇÃO NÃO PERMITE");
     }
 }

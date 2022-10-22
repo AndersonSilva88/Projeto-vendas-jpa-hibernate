@@ -53,7 +53,7 @@ public class VendaDao extends GenericDao<Venda, Long> implements IVendaDao {
     }
 
     @Override
-    public Venda consularComCollection(Long id) {
+    public Venda consultarComCollection(Long id) {
         openConnection();
 
         CriteriaBuilder builder = entityManager.getCriteriaBuilder();

@@ -11,5 +11,5 @@ public interface IVendaDao extends IGenericDao<Venda, Long> {
 
     public void cancelarVenda(Venda venda) throws TipoChaveNaoEncontradaException, DAOException;
 
-    public Venda consularComCollection(Long id);
+    public Venda consultarComCollection(Long id);
 }
